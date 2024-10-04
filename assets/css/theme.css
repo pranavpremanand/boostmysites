@@ -50,7 +50,7 @@ CSS INDEX
 /*---------------------------
 1.2 Header-Area -> Version-2
 ----------------------------*/
-.footer-area.v2,
+/* .footer-area.v2, */
 .price-area.v2,
 .product-area.v2,
 .header-area.v2 {
@@ -72,23 +72,23 @@ CSS INDEX
 }
 
 .feature-area.v2 {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 .intor-area-1 {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 80px;
+    padding-top: 80px;
     background-size: auto 100%;
 }
 
 .intor-area-2 {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 80px;
+    padding-top: 80px;
     background-size: auto 100%;
 }
 
 .details-area {
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
 .product-area {
@@ -96,11 +96,11 @@ CSS INDEX
 }
 
 .product-area.v2 {
-    padding: 200px 0;
+    padding: 110px 0;
 }
 
 .testimonial-area {
-    padding: 200px 0;
+    padding: 110px 0;
 }
 
 
@@ -126,17 +126,17 @@ CSS INDEX
     background-size: auto 100%;
     background-image: url('../images/price-bg-v3.png');
     padding-top: 250px;
-    padding-bottom: 150px;
+    padding-top: 80px;
 }
 
 .sponsor-area {
-    /* padding-bottom: 150px; */
+    /* padding-top: 80px; */
 }
 .produst-list-area.v2 {
     padding-top: 70px;
 }
 .testimonial-area.v2 {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 .service-area.v1 {
@@ -164,7 +164,7 @@ CSS INDEX
 }
 
 .mainmenu-area.v2.transparent.affix {
-    background-color: #ef7f1b
+    background-color: #000000;
 }
 
 .site-brand .logo {
@@ -336,6 +336,12 @@ CSS INDEX
     height: 100%;
    background: rgba(0, 0, 0, 0) linear-gradient(to right top, #ffffff 50%, transparent 50%) repeat scroll 0 0;
 
+}
+
+@media (max-width: 992px) {
+    .topshape {
+        display: none;
+    }
 }
 
 
@@ -879,18 +885,18 @@ ul.product-details li .title {
 }
 
 .footer-bottom {
-    padding-top: 80px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #ffffff;
 }
 
 .copyright-area {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     color: #ffffff;
 }
 
 .footer-area.v3 .copyright-area {
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 0;
 }
 

@@ -129,12 +129,12 @@
     .intro-area-2.v3,
     .intro-area.v3,
     .intro-area.v2 {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        padding-top: 80px;
         background-image: none !important;
     }
     .feature-area.v2 {
-        padding-top: 100px;
+        padding-top: 80px;
     }
     .intro-area-2.v3 {
         padding-top: 20px;
@@ -185,7 +185,7 @@
 @media only screen and (max-width: 992px) {
     .header-area {
         background-size: auto 130%;
-        padding: 200px 0 150px 0;
+        padding: 110px 0 150px 0;
         text-align: center;
     }
 
@@ -467,8 +467,8 @@
     }
 
     .section-padding {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     .product-slider-2 .single-image {
@@ -509,7 +509,7 @@
 
     .feature-area.v2 {
         padding-top: 40px;
-        padding-bottom: 60px;
+        padding-bottom: 80px;
     }
 
     .product-slider-2.owl-carousel .owl-controls .owl-nav {
@@ -550,7 +550,7 @@
     }
 
     .price-area.v3 {
-        padding-top: 150px;
+        padding-top: 80px;
         padding-bottom: 120px;
         background-color: #6918F6
     }
@@ -574,7 +574,7 @@
     }
 
     .section-padding-bottom {
-        padding-bottom: 100px;
+        padding-top: 80px;
     }
 
     .header-area.v1 .text-box .title,
@@ -605,12 +605,12 @@
     .intro-area-2.v3,
     .intro-area.v3,
     .intro-area.v2 {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        padding-top: 80px;
         background-image: none !important;
     }
     .feature-area.v2 {
-        padding-top: 100px;
+        padding-top: 80px;
     }
     .intro-area-2.v3 {
         padding-top: 20px;

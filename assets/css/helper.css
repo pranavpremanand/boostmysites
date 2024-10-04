@@ -27,16 +27,16 @@ CSS INDEX
 1. Helper-Class 
 ----------------------------*/
 .section-padding {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .section-padding-top {
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
 .section-padding-bottom {
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 }
 
 .section-bg {
@@ -598,10 +598,8 @@ Angle-Background
     width: 40px;
     height: 40px;
     line-height: 36px;
-    background: #674DD6;
-    background: -webkit-gradient(linear, right top, left top, from(#674DD6), to(#5B69FF));
-    background: linear-gradient(to left, #674DD6 0%, #5B69FF 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#674DD6', endColorstr='#5B69FF', GradientType=0);
+    background: #ef7f1b;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ef7f1b', endColorstr='#292929', GradientType=0);
     color: #ffffff;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.1);
@@ -859,9 +857,9 @@ Angle-Background
 ------------------------*/
 .circle-bg {
     background-repeat: no-repeat;
-    background-size: auto;
-    -webkit-animation: circle_jump 2s 0.3s linear infinite;
-    animation: circle_jump 2s 0.3s linear infinite;
+    background-size: 40vw;
+    /* -webkit-animation: circle_jump 2s 0.3s linear infinite; */
+    /* animation: circle_jump 2s 0.3s linear infinite; */
 }
 
 

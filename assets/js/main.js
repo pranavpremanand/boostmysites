@@ -140,6 +140,30 @@
                 }
             }
         });
+        $('.testimonails-3').owlCarousel({
+            loop: true,
+            margin: 0,
+            responsiveClass: true,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            smartSpeed: 1000,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right" ></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                480: {
+                    items: 2
+                },
+                768: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
 
 
         /*-----------------------
@@ -160,10 +184,13 @@
                     items: 3
                 },
                 600: {
-                    items: 4
+                    items: 3
                 },
                 1000: {
-                    items: 5
+                    items: 4
+                },
+                1200: {
+                    items: 6
                 }
             }
         });
